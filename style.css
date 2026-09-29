@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #080b1d;
+  color: #e8e9ff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  letter-spacing: 6px;
+}
+
+canvas {
+  width: min(480px, 90vw);
+  border: 2px solid #7776ae;
+  background: #050713;
+  cursor: grab;
+  touch-action: none;
+}
